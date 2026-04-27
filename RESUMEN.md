@@ -298,3 +298,21 @@ else {
 ### CAPITULO #2 🔥
 
 
+## ARRAYS
+* Los arrays son colecciones de datos que se pueden almacenar en una sola variable.
+* La sintaxis es: let nombreVariable = [valor1, valor2, valor3, ...]
+* Los indices de los arrays comienzan en 0.
+* Ejemplos: 
+```js
+let nombreVariable = [valor1, valor2, valor3, ...]
+```
+
+### DIFERENCIA ENTRE ARRAY Y OBJETO
+- Los arrays son colecciones de datos que se pueden almacenar en una sola variable.
+- Los objetos son colecciones de datos que se pueden almacenar en una sola variable.
+- La diferencia entre array y objeto es que los arrays tienen indices y los objetos tienen claves.
+
+```js
+let array = [1, 2, 3, 4, 5]
+let objeto = {clave1: valor1, clave2: valor2, clave3: valor3, ...}
+```

@@ -1,7 +1,8 @@
-let valor1 = "PRUEBA" 
-let valor2 = "PRUEBA"
-  
+let nombreVariable = ["VALOR 1", "VALOR 2", "VALOR 3"]
 
-console.log("Probando resultado: ", valor1 == valor2)  
-document.write("Probando resultado: ", valor1 == valor2) 
-alert("Probando resultado: ", valor1 == valor2)  
+//document.write(nombreVariable.reverse())
+//console.log(nombreVariable)
+
+let datos = {"nombre": "Juan", "apellido": "Perez", "edad": 25, "altura": 1.75}
+console.log(datos)
+document.write(datos["nombre"])
