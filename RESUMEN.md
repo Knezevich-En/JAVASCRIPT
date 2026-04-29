@@ -316,3 +316,209 @@ let nombreVariable = [valor1, valor2, valor3, ...]
 let array = [1, 2, 3, 4, 5]
 let objeto = {clave1: valor1, clave2: valor2, clave3: valor3, ...}
 ```
+
+### BUCLES
+
+## WHILE
+- El bucle while es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+while (condicion) {
+    // codigo que se ejecuta si la condicion es verdadera
+}
+```
+- Ejemplos: 
+```js
+let numero = 5;
+while(numero > 0){
+    numero = numero - 1
+    console.log(numero)
+    break // Para salir del bucle
+}
+```
+
+## DO WHILE
+- El bucle do while es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+do {
+    // codigo que se ejecuta si la condicion es verdadera
+} while (condicion)
+```
+
+
+## FOR
+- El bucle for es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+for (let i = 0; i < 10; i++) {
+    // codigo que se ejecuta si la condicion es verdadera
+}
+```
+
+## FOR EACH
+- El bucle for each es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+array.forEach(function(elemento) {
+    // codigo que se ejecuta si la condicion es verdadera
+})
+```
+- Ejemplo:
+```js
+let array = [1, 2, 3, 4, 5]
+array.forEach(function(elemento) {
+    console.log(elemento)
+})
+```
+
+
+## FOR IN DEVUELVE INDICES
+- El bucle for in es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+for (let i in array) {
+    // codigo que se ejecuta si la condicion es verdadera
+}
+```
+
+- Ejemplo:
+```js
+let array = [1, 2, 3, 4, 5]
+for (let x in array){
+    console.log(array[x])
+}
+```
+
+
+## FOR OF DEVUELVE ELEMENTOS
+- El bucle for of es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+for (let i of array) {
+    // codigo que se ejecuta si la condicion es verdadera
+}
+```
+
+- Ejemplo con FOR OF:
+```js
+let array = [1, 2, 3, 4, 5]
+for (let i of array) {
+    console.log(i)
+}
+```
+
+## SWITCH
+- El bucle switch es una estructura de control que permite ejecutar codigo de forma condicional.
+- La sintaxis es: 
+
+```js
+switch (expresion) {
+    case valor1: // valor1 es el valor que se evalua
+        // codigo que se ejecuta si la condicion es verdadera
+        break // Para salir del bucle
+    case valor2: // valor2 es el valor que se evalua
+        // codigo que se ejecuta si la condicion es verdadera
+        break // Para salir del bucle
+    default: // valor por defecto
+        // codigo que se ejecuta si la condicion es verdadera
+        break // Para salir del bucle
+}
+```
+
+- Ejemplo con SWITCH:
+```js
+let array = [1, 2, 3, 4, 5]
+switch (array) {
+    case 1: 
+        console.log("one")
+        break
+    case 2: 
+        console.log("two")
+        break
+    case 3: 
+        console.log("three")
+        break
+    default:
+        console.log("four")
+        break
+}
+```
+
+
+### FUNCIONES
+
+Las funciones son bloques de codigo que se pueden reutilizar.
+
+Sintaxis: 
+```js
+function nombreFuncion() {
+    // codigo que se ejecuta si la funcion es llamada
+}
+
+// Para llamar a la funcion se usa: 
+nombreFuncion()
+```
+
+- Ejemplo real:
+```js
+function saludar() {
+    console.log("Hola Mundo")
+}
+
+saludar()
+```
+
+## CON PARAMETROS
+- Las funciones pueden recibir parametros. 
+- La sintaxis es: 
+
+```js
+function nombreFuncion(parametro1, parametro2, ...) {
+    // codigo que se ejecuta si la funcion es llamada
+}
+
+// Para llamar a la funcion se usa: 
+nombreFuncion(parametro1, parametro2, ...)
+```
+
+- Ejemplo real:
+```js
+function saludar(nombre) {
+    console.log("Hola " + nombre)
+}
+
+saludar("Juan")
+```
+
+
+### RETURN
+- El return es una instruccion que permite devolver un valor a la funcion.
+- La sintaxis es: 
+
+```js
+function nombreFuncion() {
+    return valor
+}
+
+// Para llamar a la funcion se usa: 
+nombreFuncion()
+```
+
+- Ejemplo real:
+```js
+function saludar() {
+    return "Hola Mundo"
+}
+
+console.log(saludar())
+```
+
+
+### CAPITULO 3 🔥
